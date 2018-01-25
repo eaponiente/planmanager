@@ -1,0 +1,22 @@
+{
+    "name": "edgar/planmanager",
+    "description": "This package lists companies and number of employees and export the list in CSV file",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Edgar Poniente",
+            "email": "edgar.poniente@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "tymon/jwt-auth": "0.5.*",
+        "maatwebsite/excel": "2.1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edgar\\PlanManager\\": "src/"
+        }
+    }
+}
